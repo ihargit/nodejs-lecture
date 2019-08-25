@@ -2,6 +2,7 @@ const express = require('express');
 const citiesControllers = require('../controllers/cities');
 const authenticate = require('../middlewares/authenticate');
 
+
 const router = express.Router();
 
 router.get('/', (req, res) => {

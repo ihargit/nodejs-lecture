@@ -10,6 +10,7 @@ fs.readFile(__filename, 'utf-8', (err, file) => {
     console.log('async readFile', file.length);
 });
 
+
 const file = fs.readFileSync(__filename, 'utf-8');
 console.log('sync readFile', file.length);
 

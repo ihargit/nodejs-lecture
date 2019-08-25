@@ -11,3 +11,4 @@ emitter.emit('SOME_EVENT', 'some', 'arguments');
 
 emitter.removeListener('SOME_EVENT', someEventListener);
 emitter.emit('SOME_EVENT', 'some', 'arguments');
+
